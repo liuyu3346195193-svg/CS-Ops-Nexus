@@ -1,49 +1,20 @@
-# 🚀 CS Ops Nexus - 客户成功运营中枢 (CCO Assistant Workstation)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-## 💡 产品概述 
-**CS Ops Nexus** 是**核心数字化工作台**。它超越了传统数据看板，致力于成为连接 **Web3 技术**与**传统商业运营**的战略中枢。
+# Run and deploy your AI Studio app
 
-核心目标：
-1. **战略对齐：** 确保每项日常运营工作都直接服务于公司的 **OKR**。
-2. **AI 赋能：** 集成 **Google Gemini** 等先进生成式 AI，实现文档撰写、情感分析和话术生成的自动化，大幅释放人力。
-3. **流程闭环：** 构建“**发现问题 (仪表板) → 解决问题 (知识库) → 机制优化 (SOP)**”的完整运营循环。
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1bFlnIUPSjFL2hco_y6fZyuKSSkHs9XWL
 
-## ✨ 核心功能亮点 (Core Features)
+## Run Locally
 
-系统设计围绕 **效率、标准化和洞察** 三个维度，为 CCO 助理提供全方位支持。
-
-| 模块 | 功能定位 | CCO 助理价值点 |
-| :--- | :--- | :--- |
-| **仪表板** | 战略控制塔 | 每日工作的起点，快速掌握业务健康度 (**CSAT, 日交易量**) 和 **OKR 进度**。 |
-| **团队运营** | 流程标准化引擎 | **AI SOP 生成器**：快速将隐性经验转化为标准化 **Markdown 文档**，解决知识传承断层。 |
-| **商户入驻管道** | 客户旅程视图 | **Kanban 看板**：可视化管理商户生命周期，利用**健康度预警 (红/黄/绿)** 及时介入流程阻塞。 |
-| **智能知识库** | 效率倍增器 | **工单回复起草助手**：基于 Gemini AI 和语料库，一键生成专业、统一、高情商的回复草稿。 |
-| **分析中心** | 决策大脑 | 通过**趋势图表**和 **AI 洞察报告**提炼非结构化客户反馈，驱动流程持续优化。 |
-
----
-
-## 🛠 关键工作流示例 (The ODAI Cycle)
-
-遵循以下 **ODAI 循环 (Observe-Do-Analyze-Improve)** 来高效使用 CS Ops Nexus：
-
-1.  **👁️ Observe (观察 - 入驻管道):**
-    * 发现商户卡片（例如：“艺数藏品坊”）健康分仅 40，卡在 **KYB** 阶段，标记为 **红色预警**。
-2.  **✍️ Do (执行 - 智能知识库):**
-    * 利用**工单回复起草助手**，生成一封措辞得体的催促补全资料邮件，主动介入。
-3.  **📊 Analyze (分析 - 分析中心):**
-    * 月末查看 **AI 洞察报告**，发现多个商户反映“文档上传界面难用”。
-4.  **🔄 Improve (优化 - 团队运营):**
-    * 使用 **AI SOP 生成器**创建《**Web3 商户 KYB 快速通关指南**》，将新的优化措施标准化并分发执行。
-
----
-
-## ⚙️ 技术与环境要求 (Technology & Environment)
-
-* **核心 AI 模型：** Google **Gemini** (需配置有效的 API Key)
-* **前端框架：** (待定 - 假设为 React/Vue/Angular 或类似技术栈)
-* **数据安全：** 所有商户敏感数据均经过严格**脱敏处理**，符合合规要求。
-* **界面设计：** 经典左侧导航栏布局，`Command (⌘)` 图标作为“运营控制台”标识。
+**Prerequisites:**  Node.js
 
 
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
